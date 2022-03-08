@@ -16,7 +16,7 @@ for i in range(N):
         for m in ma:
             # 입력값보다 가장 작은 수가 더 작을 경우
             if res[0] < m:
-                # 해당 값을 넣어주고
+                # 해당 값을 넣어주면서
                 heapq.heappush(res, m)
                 # res의 가장 작은 값을 pop하여 N길이를 유지
                 heapq.heappop(res)
